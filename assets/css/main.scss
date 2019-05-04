@@ -476,6 +476,7 @@ a.navbar-brand {
   padding: 0;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 
   img {
     display: inline-block;
@@ -489,8 +490,9 @@ a.navbar-brand {
   }
 
   a.sponsor-item {
-    width: 165px;
-    padding: 25px 10px;
+    width: 175px;
+    margin-bottom: 20px;
+    padding: 25px 15px;
     background: white;
     border-radius: 5px;
     display: flex;
@@ -500,7 +502,7 @@ a.navbar-brand {
     text-align: center;
     justify-content: center;
     text-decoration: none;
-    transition: all 200ms;
+    transition: transform 200ms, opacity 200ms;
 
     h3 {
       font-size: 18px;
@@ -540,4 +542,32 @@ img.hackrio-spon {
 
 .sponsor-page-blocks {
   margin: 0 0 50px;
+}
+
+.sponsor-us-block {
+  opacity: 0.5;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.fa.sponsor-us {
+  font-size: 60px;
+  margin-bottom: 30px;
+  position: relative;
+  top: 15px;
+  color: #dcdcdc;
+}
+
+@media (max-width: 441px) {
+  .sponsors-block-items {
+    flex-direction: column;
+
+    a.sponsor-item {
+      margin-left: 0 !important;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+  }
 }
