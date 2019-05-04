@@ -481,7 +481,7 @@ a.navbar-brand {
   img {
     display: inline-block;
     height: 65px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     border-radius: 100%;
   }
 
@@ -489,7 +489,7 @@ a.navbar-brand {
     margin-left: 15px;
   }
 
-  .sponsor-item {
+  a.sponsor-item {
     width: 165px;
     padding: 25px 10px;
     background: white;
@@ -500,10 +500,12 @@ a.navbar-brand {
     vertical-align: middle;
     text-align: center;
     justify-content: center;
+    text-decoration: none;
 
     h3 {
       font-size: 18px;
       font-weight: 500;
+      color: #101010;
       margin-bottom: 8px;
     }
 
