@@ -1,8 +1,8 @@
-title: Kamran Ahmed
-description: "Lead engineer at tajawal — tech guy with an entrepreneurial spirit and knack for getting things done"
+title: roadmap.sh
+description: "Roadmaps to becoming a frontend developer, backend developer or DevOps."
 url: "https://roadmap.sh"
 author: "Kamran Ahmed"
-keywords: "kamran,kamranahmedse,kamran ahmed,code,javascript,php,databases,entrepreneurship,startups,react,angular,javascript"
+keywords: "roadmap,developer roadmaps,developer roadmap,frontend developer,frontend developer roadmap,frontend,frontend roadmap,backend,backend developer,backend developer roadmap,devops,devops roadmap,fullstack developer roadmap,guide to becoming a developer,sre roadmap,sre,operations roadmap"
 github: kamranahmedse
 medium: kamranahmedse
 twitter: kamranahmedse
@@ -35,21 +35,3 @@ defaults:
       type: "pages"
     values:
       layout: "base"
-
-about:
-  - name: Github
-    username: kamranahmedse
-    url: https://github.com/kamranahmedse
-    class: github
-  - name: Medium
-    username: kamranahmedse
-    url: https://medium.com/@kamranahmedse
-    class: medium
-  - name: Twitter
-    username: kamranahmedse
-    url: https://twitter.com/kamranahmedse
-    class: twitter
-  - name: Email
-    username: kamranahmed.se@gmail.com
-    class: email
-    url: mailto:kamranahmed.se@gmail.com
