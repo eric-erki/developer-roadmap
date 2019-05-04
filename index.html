@@ -8,9 +8,9 @@
     </div>
     <div class="row roadmaps-list">
         {% for post in site.posts %}
-            {% if post.categories contains "roadmaps" and post.featured == true %}
-                {% include roadmap.html roadmap=post  %}
-            {% endif %}
+        {% if post.categories contains "roadmaps" and post.featured == true %}
+        {% include roadmap.html roadmap=post %}
+        {% endif %}
         {% endfor %}
     </div>
 </div>
@@ -51,4 +51,14 @@
     </div>
 </div>
 
-{% include sponsors.html %}
+<div class="sponsors-list shadow-sm border dark-bg">
+    <div class="container">
+        <div class="container-head">
+            <h4>Become a Sponsor</h4>
+            <p>Please reach out to us to sponsor our efforts in helping the community</p>
+        </div>
+        <div class="home-sponsor-blocks">
+            {% include sponsor-blocks.html %}
+        </div>
+    </div>
+</div>

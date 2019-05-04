@@ -472,9 +472,8 @@ a.navbar-brand {
   background: #ffd03e
 }
 
-.sponsors-page-items {
+.sponsors-block-items {
   padding: 0;
-  margin: 0 0 50px;
   display: flex;
   justify-content: center;
 
@@ -533,4 +532,12 @@ img.hackrio-spon {
   position: relative;
   right: 9px;
   height: 80px;
+}
+
+.home-sponsor-blocks {
+  margin: 35px 0 10px;
+}
+
+.sponsor-page-blocks {
+  margin: 0 0 50px;
 }
