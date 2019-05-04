@@ -9,12 +9,7 @@
     <div class="row roadmaps-list">
         {% for post in site.posts %}
             {% if post.categories contains "roadmaps" and post.featured == true %}
-                <div class="col-12 col-sm-12 col-lg-4 col-md-4">
-                    <a class="roadmap-block border shadow-sm" href="{{ post.url }}">
-                        <h3>{{ post.title }}</h3>
-                        <p>{{ post.excerpt }}</p>
-                    </a>
-                </div>
+                {% include roadmap.html roadmap=post  %}
             {% endif %}
         {% endfor %}
     </div>
