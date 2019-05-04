@@ -67,6 +67,10 @@ body {
   background: #ffffff;
   text-decoration: none;
   color: #101010;
+  -webkit-transition: transform .2s ease-in-out;
+  -moz-transition: transform .2s ease-in-out;
+  -ms-transition: transform .2s ease-in-out;
+  -o-transition: transform .2s ease-in-out;
   transition: transform .2s ease-in-out;
   margin-bottom: 15px;
 
@@ -77,6 +81,10 @@ body {
   }
 
   &:hover {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
     transform: scale(1.05);
     text-decoration: none;
     color: currentColor;
@@ -228,6 +236,10 @@ hr {
   display: block;
   padding: 8px 15px;
   background: rgba(255, 255, 255, 0.1);
+  -webkit-transition: background 200ms;
+  -moz-transition: background 200ms;
+  -ms-transition: background 200ms;
+  -o-transition: background 200ms;
   transition: background 200ms;
   border-radius: 5px;
   border-color: #111111;
@@ -259,6 +271,10 @@ hr {
   margin-left: 20px;
   font-size: 16px;
   text-decoration: none;
+  -webkit-transition: color 200ms;
+  -moz-transition: color 200ms;
+  -ms-transition: color 200ms;
+  -o-transition: color 200ms;
   transition: color 200ms;
   cursor: pointer;
   margin-bottom: 10px;
@@ -375,6 +391,10 @@ img.with-love {
 .logos-list img {
   border-radius: 100%;
   height: 80px;
+  -webkit-transition: transform 200ms, opacity 300ms, filter 300ms;
+  -moz-transition: transform 200ms, opacity 300ms, filter 300ms;
+  -ms-transition: transform 200ms, opacity 300ms, filter 300ms;
+  -o-transition: transform 200ms, opacity 300ms, filter 300ms;
   transition: transform 200ms, opacity 300ms, filter 300ms;
   margin-left: 10px;
   opacity: 0.5;
@@ -383,6 +403,10 @@ img.with-love {
 
 .logos-list img:hover {
   opacity: 1;
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
   transform: scale(1.05);
   filter: none;
 }
@@ -411,6 +435,10 @@ a.navbar-brand {
   display: inline-block;
   margin-left: 16px;
   font-size: 16px;
+  -webkit-transition: color 300ms;
+  -moz-transition: color 300ms;
+  -ms-transition: color 300ms;
+  -o-transition: color 300ms;
   transition: color 300ms;
 }
 
@@ -510,6 +538,10 @@ a.navbar-brand {
     text-align: center;
     justify-content: center;
     text-decoration: none;
+    -webkit-transition: transform 200ms, opacity 200ms;
+    -moz-transition: transform 200ms, opacity 200ms;
+    -ms-transition: transform 200ms, opacity 200ms;
+    -o-transition: transform 200ms, opacity 200ms;
     transition: transform 200ms, opacity 200ms;
 
     h3 {
@@ -527,6 +559,10 @@ a.navbar-brand {
     }
 
     &:hover {
+      -webkit-transform: scale(1.05);
+      -moz-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      -o-transform: scale(1.05);
       transform: scale(1.05);
     }
   }
