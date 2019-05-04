@@ -1,0 +1,55 @@
+title: Kamran Ahmed
+description: "Lead engineer at tajawal — tech guy with an entrepreneurial spirit and knack for getting things done"
+url: "http://kamranahmed.info"
+author: "Kamran Ahmed"
+keywords: "kamran,kamranahmedse,kamran ahmed,code,javascript,php,databases,entrepreneurship,startups,react,angular,javascript"
+github: kamranahmedse
+medium: kamranahmedse
+twitter: kamranahmedse
+email: kamranahmedse@gmail.com
+baseurl: "/"
+
+exclude: ["readme.md", "CNAME", "LICENSE", ".gitignore"]
+
+permalink: pretty
+timezone: Asia/Abu_Dhabi
+categories: [roadmaps, sponsors]
+
+plugins: []
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+sass:
+  style: compressed
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "base"
+
+about:
+  - name: Github
+    username: kamranahmedse
+    url: https://github.com/kamranahmedse
+    class: github
+  - name: Medium
+    username: kamranahmedse
+    url: https://medium.com/@kamranahmedse
+    class: medium
+  - name: Twitter
+    username: kamranahmedse
+    url: https://twitter.com/kamranahmedse
+    class: twitter
+  - name: Email
+    username: kamranahmed.se@gmail.com
+    class: email
+    url: mailto:kamranahmed.se@gmail.com

@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+<body>
+<div class="page-wrap">
+    <div class="container">
+        {% include nav.html %}
+    </div>
+
+    {{ content }}
+
+    {% include sponsors.html %}
+    {% include footer.html %}
+</div>
+{% include ganalytics.html %}
+</body>
+</html>
