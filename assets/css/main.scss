@@ -439,9 +439,16 @@ a.navbar-brand {
 
 .not-found-content {
   margin: 100px auto 100px;
+
   img {
     height: 180px;
     display: block;
     margin: 30px auto 0;
   }
+}
+
+.roadmap-img img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto 100px;
 }

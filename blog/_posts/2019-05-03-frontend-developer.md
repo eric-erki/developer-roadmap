@@ -5,6 +5,5 @@ permalink: /roadmap/frontend-developer
 featured: true
 layout: roadmap
 categories: [roadmaps]
+graphic: "/assets/img/roadmaps/frontend.png"
 ---
-
-soup
