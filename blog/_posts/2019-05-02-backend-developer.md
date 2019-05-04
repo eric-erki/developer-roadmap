@@ -5,6 +5,5 @@ permalink: /roadmap/backend-developer
 featured: true
 layout: roadmap
 categories: [roadmaps]
+graphic: "/assets/img/roadmaps/backend.png"
 ---
-
-backend
