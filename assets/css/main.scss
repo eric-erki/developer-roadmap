@@ -7,6 +7,14 @@ body {
   color: #131313;
 }
 
+.text-muted {
+  color: #848a9a !important;
+}
+
+.mb-50 {
+  margin-bottom: 50px !important;
+}
+
 .btn-primary {
   background: #0747a6;
   border-color: #0747a6;
@@ -541,7 +549,7 @@ img.hackrio-spon {
 }
 
 .sponsor-page-blocks {
-  margin: 0 0 50px;
+  margin: -15px 0 15px;
 }
 
 .sponsor-us-block {
@@ -568,6 +576,24 @@ img.hackrio-spon {
       margin-left: 0 !important;
       margin-bottom: 10px;
       width: 100%;
+    }
+  }
+}
+
+.high-section {
+  padding: 25px;
+  background: white;
+  border-radius: 5px;
+
+  .section-head {
+    text-align: center;
+
+    h3 {
+      font-weight: 700;
+    }
+
+    p {
+      margin-bottom: 0;
     }
   }
 }
