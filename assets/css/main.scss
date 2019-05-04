@@ -34,7 +34,7 @@ body {
 .page-header h1 {
   font-size: 50px;
   color: #131313;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   font-weight: 700;
 }
 
@@ -428,5 +428,20 @@ a.navbar-brand {
   a {
     font-weight: 600;
     color: currentColor;
+  }
+}
+
+.bold-link {
+  font-weight: 700;
+  text-decoration: none !important;
+  color: #101010;
+}
+
+.not-found-content {
+  margin: 100px auto 100px;
+  img {
+    height: 180px;
+    display: block;
+    margin: 30px auto 0;
   }
 }
