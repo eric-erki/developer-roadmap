@@ -501,6 +501,7 @@ a.navbar-brand {
     text-align: center;
     justify-content: center;
     text-decoration: none;
+    transition: all 200ms;
 
     h3 {
       font-size: 18px;
@@ -515,9 +516,21 @@ a.navbar-brand {
       line-height: 23px;
       margin-bottom: 0;
     }
+
+    &:hover {
+      transform: scale(1.05);
+    }
   }
 
   .sponsor-item + .sponsor-item {
     margin-left: 20px;
   }
+}
+
+img.hackrio-spon {
+  margin-top: 5px;
+  margin-bottom: 8px;
+  position: relative;
+  right: 9px;
+  height: 80px;
 }
