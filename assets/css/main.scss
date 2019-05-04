@@ -456,15 +456,66 @@ a.navbar-brand {
   margin: 0 auto 100px;
 }
 
-.roadmaps-list-meta {
+.page-footer-meta {
   text-align: center;
   line-height: 1.65;
   margin-bottom: 35px;
   color: #797e88;
-  margin-top: -20px;
   font-size: 14px;
+}
+
+.roadmaps-list-meta {
+  margin-top: -20px;
 }
 
 ::selection {
   background: #ffd03e
+}
+
+.sponsors-page-items {
+  padding: 0;
+  margin: 0 0 50px;
+  display: flex;
+  justify-content: center;
+
+  img {
+    display: inline-block;
+    height: 65px;
+    margin-bottom: 15px;
+    border-radius: 100%;
+  }
+
+  img + img {
+    margin-left: 15px;
+  }
+
+  .sponsor-item {
+    width: 165px;
+    padding: 25px 10px;
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+    justify-content: center;
+
+    h3 {
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 8px;
+    }
+
+    p {
+      color: #797E88;
+      font-size: 14px;
+      line-height: 23px;
+      margin-bottom: 0;
+    }
+  }
+
+  .sponsor-item + .sponsor-item {
+    margin-left: 20px;
+  }
 }
