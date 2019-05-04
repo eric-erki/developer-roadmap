@@ -1,7 +1,7 @@
 ---
 title: "Backend Developer" 
 excerpt: "The path to follow in order to become a backend developer"
-permalink: /roadmap/backend-developer
+permalink: /backend
 featured: true
 layout: roadmap
 categories: [roadmaps]
