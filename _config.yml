@@ -15,7 +15,8 @@ permalink: pretty
 timezone: Asia/Abu_Dhabi
 categories: [roadmaps, sponsors]
 
-plugins: []
+plugins:
+  - jekyll-sitemap
 
 markdown: kramdown
 kramdown:
