@@ -5,5 +5,5 @@ permalink: /backend
 featured: true
 layout: roadmap
 categories: [roadmaps]
-graphic: "/assets/img/roadmaps/backend.png"
+graphic: "/assets/img/roadmaps/backend-transparent.png"
 ---
