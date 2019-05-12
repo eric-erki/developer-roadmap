@@ -1,6 +1,5 @@
 ---
 ---
-
 .container {
   max-width: 850px;
   margin: auto;
@@ -85,7 +84,6 @@
     line-height: 1.6;
   }
 }
-
 
 .feat-row {
   display: flex;
@@ -313,7 +311,6 @@ img.with-love {
   margin: 0 4px;
 }
 
-
 @media (max-width: 767px) {
   .feat-row {
     display: block !important;
@@ -399,7 +396,6 @@ img.with-love {
   opacity: 0.5;
 }
 
-
 a.navbar-brand {
   background: #101010;
   color: white;
@@ -423,9 +419,15 @@ a.navbar-brand {
   transition: color 300ms;
 }
 
-.navbar .fa-github {
-  font-size: 30px;
+.navbar .fa.fa-twitter {
   margin-left: 10px;
+}
+
+.navbar .fa {
+  font-size: 22px;
+  margin-left: 5px;
+  position: relative;
+  top: 2px;
 }
 
 .navbar .nav-links {
